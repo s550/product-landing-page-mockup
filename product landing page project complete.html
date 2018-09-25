@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Product Landing Page</title>
+	<link rel="stylesheet" type="text/css" href="landingpage.css">
+	<!-- cdn for bulma below testing successful... -->
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.css">
+	<script defer src="https://use.fontawesome.com/releases/v5.1.0/js/all.js"></script>
+</head>
+<body>
+	<header id="header" class="">
+  <div class="columns">
+    <div class="column">
+ <img src="http://www.ipwatchdog.com/wp-content/uploads/2016/06/original-olympic-rings.jpg" id="header-img">
+    </div>
+    <div class="column">
+   <nav id="nav-bar">
+					<a href="#service" class="nav-link navbar-item">Business Model</a>
+					<a href="#in-action" class="nav-link navbar-item">Flutes In Action</a>
+					<a href="#pricing" class="nav-link navbar-item">Pricing</a>
+		</nav>
+    </div>
+  </div>
+	</header>
+</div>
+	<div class="container-mid has-text-centered">
+		<!-- need to make flexbox work on the purchase options might need to seperate the main section of video and description from the purchase options turning those into a footer with a class of container-bottom -->
+		<main>
+		<div id="service">
+			<h1 class="top"><strong>American Made Materials</strong></h1>
+			<p>Our flutes are made with only american sourced materials. You can buy safetly knowing it is indeed american we guarentee it. </p>
+			<h1 class="top"><strong>Fast Completion Time</strong></h1>
+			<p>Our flutes are made to order and while that does take some time. You can rest assured we are the quickest in the business while mantianing..</p>
+			<h1 class="top"><strong>Quality Assurance</strong></h1>
+			<p>We have rigorus standards that we build our instruments to stand up to. If for whatever reason yours is defective please return it no questions asked.</p>
+		</div>
+		<div id="in-action">
+			<iframe id="video"
+			 width="560" height="315"
+      src="https://www.youtube.com/embed/SaeXN-MByjU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe
+		</div>
+		<div id="pricing">
+			<form action="https://www.freecodecamp.com/email-submit" method="post" id="form">
+				<input type="email" name="email" id="email" placeholder="Please Enter Your Email Address" required>
+				<input type="submit" name="submit" id="submit" value="submit">
+				<!-- when it comes to submitting email i am going to have to design it to where it makes sense when it comes to ordering from the 3 choices -->
+			</form>
+		</div>
+	</main>
+	<section>
+		<div class="container-bottom">
+      <div class="columns">
+			<div class="column bottom">
+				<h3 class="desc">Regular Flute</h3>
+				<h2>500$</h2>
+				<p>Our basic standard flute. Comes with no extras</p>
+			</div>
+			<div class="column bottom">
+				<h3 class="desc">Super Flute</h3>
+				<h2>1200$</h2>
+				<p>Our most popular option. Knock them dead with our Lord of the Song cleaning kit.</p>
+			</div>
+			<div class="column bottom">
+				<h3 class="desc">Ultra Flute</h3>
+				<h2>2400$</h2>
+				<p>Might actually put you to sleep or wake you up. Your experience may differ.</p>
+        </div>
+			</div>
+		</div>
+	</section>
+</div>
+</body>
+</html>

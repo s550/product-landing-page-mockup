@@ -1,0 +1,72 @@
+/*remember changing the size of fa icons reqires font sizing since they count as text*/
+#header{
+  position: fixed;
+  overflow: hidden;
+  top:0;
+  width:100%;
+  background-color:;
+}
+
+#nav-bar a{
+  float: right;
+  display: block;
+  text-align:center;
+  padding:;
+  text-decoration:none;
+  background-color:;
+}
+
+#header-img{
+  height: 50px;
+  
+}
+
+.container-mid{
+  margin-top:20%;
+}
+
+.top{
+  font-size: 36px;
+  padding-bottom:20px;
+  
+}
+
+p{
+  font-size:20px;
+  margin-bottom:30px;
+}
+
+#video{
+  border: 2px black solid;
+  margin-bottom:80px;
+}
+
+#form{
+  margin-bottom:85px;
+}
+
+.bottom{
+  border: black solid 2px;
+  padding:40px;
+  margin: 30px;
+}
+
+.desc{
+  font-weight:700;
+  font-size:30px;
+}
+
+
+.container-bottom{
+  display:flex;
+}
+@media only screen and (max-width: 420px){
+
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+/* Styles */
+  #nav-bar{
+    text-align:right;
+  }
+}
